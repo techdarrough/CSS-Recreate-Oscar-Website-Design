@@ -1,3 +1,8 @@
+.buttonExpand {
+  color: red;
+
+}
+
 header ul {
   list-style-type: none;
   margin: 0;
@@ -9,27 +14,25 @@ header ul {
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
+  
 }
+
+
 
 header ul li {
   display: inline-block;
   margin: 10px;
-  float: inline-end;
+  
+  
+  
 }
+
 #logoDiv {
   width: 100px;
   float: left;
 }
 
-.buttonExpand {
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-  height: 50px;
-  width: 200px;
-  color: white;
-  font-size: 1.5em;
-}
+
 
 .headerBar {
   display: flex;
