@@ -1,11 +1,38 @@
-.mainNav {
-    display:flex;
-    height: 100%;
-    max-width: 1120px;
-    padding: 100%;
+
+
+ul {
+    list-style-type: none;
+    margin: -12px -8px;
+    padding: 12px 8px;
     background-image: url(assets/images/hero.png);
+    height: 500px;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;
-    opacity: 100%;
+    background-size: cover;
+    align-items: center;
+    
+   
+
 }
+
+li {
+    display: inline;
+    
+    
+}
+#logoDiv {
+    width: 100px;
+    float: left;
+
+}
+
+button {
+    opacity: 25%;
+    border-bottom: initial;
+    border: none;
+}
+
+body {
+    background-color: ivory;
+}
+
